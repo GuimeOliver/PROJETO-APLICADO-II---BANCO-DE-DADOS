@@ -63,6 +63,17 @@ Versões em `requirements.txt`.
 | Bases teóricas do método | seção 5 do relatório |
 | Cálculo da acurácia | notebook 05 (Etapa 14) e seção 6 do relatório |
 
+## Exigências da Etapa 3 e onde estão atendidas
+
+| Exigência | Evidência |
+|---|---|
+| (a) Aplicação do método analítico | notebook 07 (Seções 2 a 4) e seção 8 do relatório |
+| (b) Medidas de acurácia | notebook 07 (Seções 4 e 5) e seção 9 do relatório |
+| (c) Resultados preliminares, produto e modelo de negócios | notebook 07 (Seções 5 e 6) e seção 10 do relatório |
+| (d) Esboço do storytelling | notebook 07 (Seção 7) e seção 11 do relatório |
+
+Resultado no conjunto de teste (Random Forest, limiar 0,463 para recall alvo de 70%): recall 71,8%, precisão 7,9%, AUC-PR 0,152 e AUC-ROC 0,824; o modelo alerta 23,3% dos casos.
+
 ## Estado das etapas
 
 | Processo do mapa | Situação |
@@ -73,5 +84,5 @@ Versões em `requirements.txt`.
 | P04 Explorar os dados de desenvolvimento | concluído — 05 |
 | P05 Preparar e integrar | concluído para SINAN + CNES + IBGE básico; saneamento aguarda `mapeamento_indicadores.csv` aprovado |
 | P06 Trilha textual (informes) | concluído — corpus, menções, TF-IDF e indicadores citados dos 17 informes; revisão manual da amostra pendente |
-| P07 Ajustar e comparar na validação | baseline concluído (SINAN isolado vs enriquecido) — 05 |
-| P08 Avaliar no teste e comunicar | Etapa 3 |
+| P07 Ajustar e comparar na validação | concluído — baseline (05) e comparação Regressão Logística vs Random Forest com escolha do limiar (07) |
+| P08 Avaliar no teste e comunicar | concluído — teste aberto uma vez (07), escore de risco, modelo de negócios e esboço de storytelling; storytelling completo fica para a etapa seguinte |
