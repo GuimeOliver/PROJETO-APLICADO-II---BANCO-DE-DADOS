@@ -11,9 +11,9 @@ A limpeza segue o **Plano de Limpeza das Bases** e as demais atividades o **Rote
 
 | Item | Onde está |
 |---|---|
-| Relatório técnico cumulativo (Etapas 1 a 4) | `reports/Relatorio_Etapa4.docx` [CONFIRMAR O CAMINHO] |
-| Storytelling (apresentação, 4 atos: problema, dados, solução, impacto) | `Storytelling_Dengue.pptx` na raiz do repositório [CONFIRMAR O CAMINHO] |
-| Vídeo de apresentação (YouTube) | [COLAR AQUI O LINK DO VÍDEO] |
+| Relatório técnico cumulativo (Etapas 1 a 4) | `reports/Relatorio_Etapa4.pdf` 
+| Storytelling (apresentação, 4 atos: problema, dados, solução, impacto) | `Storytelling_Dengue.pptx` na raiz do repositório  |
+| Vídeo de apresentação (YouTube) | https://youtu.be/ZaMjrc9gDHQ |
 | Código, dados tratados e modelo | este repositório (estrutura abaixo) |
 
 **Resumo do projeto.** O modelo estima, para cada notificação de dengue, um escore de 0 a 1 para a chance de o caso evoluir para
